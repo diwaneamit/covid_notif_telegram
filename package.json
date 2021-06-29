@@ -1,0 +1,25 @@
+{
+  "name": "covid_notif_telegram",
+  "version": "1.0.0",
+  "description": "Covid Notifier for Telegram Bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "COVID",
+    "Notifier",
+    "Telegram",
+    "BOT",
+    "Chat",
+    "Bot"
+  ],
+  "author": "Amit Diwane",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.1",
+    "node-telegram-bot-api": "^0.53.0"
+  }
+}
